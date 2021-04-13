@@ -78,7 +78,6 @@
     <Compile Include="Assets\Photon\PhotonLibs\WebSocket\SocketWebTcp.cs" />
     <Compile Include="Assets\Photon\PhotonLibs\WebSocket\WebSocket.cs" />
     <Compile Include="Assets\Photon\PhotonRealtime\Demos\DemoLoadBalancing\ConnectAndJoinRandomLb.cs" />
-    <Compile Include="Assets\Resources\lr5\PlayFabLogin.cs" />
     <Compile Include="Assets\Scripts\lr1\ScriptRotatingCylinder.cs" />
     <Compile Include="Assets\Scripts\lr2\MainMenu.cs" />
     <Compile Include="Assets\Scripts\lr2\PlayerController.cs" />
@@ -87,6 +86,7 @@
     <Compile Include="Assets\Scripts\lr3\DoTweenCoinAnimation.cs" />
     <Compile Include="Assets\Scripts\lr3\PlayerData.cs" />
     <Compile Include="Assets\Scripts\lr3\ScriptTestPlugin.cs" />
+    <Compile Include="Assets\Scripts\lr5\PlayFabLogin.cs" />
     <Compile Include="Assets\Scripts\lr6\GameManager.cs" />
     <Compile Include="Assets\Scripts\lr6\Launcher.cs" />
     <Compile Include="Assets\Scripts\lr6\PlayerAnimatorManager.cs" />

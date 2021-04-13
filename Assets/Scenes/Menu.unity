@@ -372,6 +372,7 @@ GameObject:
   - component: {fileID: 429272346}
   - component: {fileID: 429272347}
   - component: {fileID: 429272348}
+  - component: {fileID: 429272349}
   m_Layer: 0
   m_Name: Launcher
   m_TagString: Untagged
@@ -431,6 +432,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8c352650f6deac64084b1eb65b791a36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &429272349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 429272344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d9f223174e334547a900ed2f4e15d40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &435824631

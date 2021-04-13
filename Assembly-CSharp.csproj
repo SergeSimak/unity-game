@@ -78,6 +78,7 @@
     <Compile Include="Assets\Photon\PhotonLibs\WebSocket\SocketWebTcp.cs" />
     <Compile Include="Assets\Photon\PhotonLibs\WebSocket\WebSocket.cs" />
     <Compile Include="Assets\Photon\PhotonRealtime\Demos\DemoLoadBalancing\ConnectAndJoinRandomLb.cs" />
+    <Compile Include="Assets\Resources\lr5\PlayFabLogin.cs" />
     <Compile Include="Assets\Scripts\lr1\ScriptRotatingCylinder.cs" />
     <Compile Include="Assets\Scripts\lr2\MainMenu.cs" />
     <Compile Include="Assets\Scripts\lr2\PlayerController.cs" />

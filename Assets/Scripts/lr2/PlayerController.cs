@@ -22,25 +22,25 @@ public class PlayerController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void FixedUpdate()
-    {
-        if (Input.GetKey(KeyCode.A))
-        {
-            //rigidbody2D.DOMoveX(-4, 2);
-            rigidbody2D.velocity = new Vector2(-4, rigidbody2D.velocity.y);
-        }
-        if (Input.GetKey(KeyCode.D))
-        {
-            //rigidbody2D.DOMoveX(4, 2);
-            rigidbody2D.velocity = new Vector2(4, rigidbody2D.velocity.y);
-        }
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            //rigidbody2D.DOMoveY(10, 2);
-            rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, 14f);
-        }
-    }
-    public void OnTriggerEnter2D(Collider2D collision)
+    //void FixedUpdate()
+    //{
+    //    if (Input.GetKey(KeyCode.A))
+    //    {
+    //        //rigidbody2D.DOMoveX(-4, 2);
+    //        rigidbody2D.velocity = new Vector2(-4, rigidbody2D.velocity.y);
+    //    }
+    //    if (Input.GetKey(KeyCode.D))
+    //    {
+    //        //rigidbody2D.DOMoveX(4, 2);
+    //        rigidbody2D.velocity = new Vector2(4, rigidbody2D.velocity.y);
+    //    }
+    //    if (Input.GetKeyDown(KeyCode.Space))
+    //    {
+    //        //rigidbody2D.DOMoveY(10, 2);
+    //        rigidbody2D.velocity = new Vector2(rigidbody2D.velocity.x, 14f);
+    //    }
+    //}
+    public void OnTriggerEnter(Collider collision)
     {
         if(collision.tag == "Coins")
         {

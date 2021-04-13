@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Collectables
+  - Bullet
+  - Trap
+  - End
+  - Coins
   layers:
   - Default
   - TransparentFX
